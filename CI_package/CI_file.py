@@ -7,7 +7,7 @@ driver=webdriver.Firefox()
 driver.get('http://www.baidu.com')
 
 #by_id
-driver.find_element_by_id("kw").send_keys("selenium")
+driver.find_element_by_id("kw").send_keys("seleniummmmm")
 time.sleep(3)
 driver.find_element_by_id('su').click()
 time.sleep(5)
